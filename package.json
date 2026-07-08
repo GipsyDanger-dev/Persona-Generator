@@ -1,0 +1,13 @@
+{
+  "name": "tambah-pillar",
+  "version": "1.0.0",
+  "description": "Script generate persona + jadwal angle pillar baru pakai Gemini, lalu insert otomatis ke Supabase",
+  "main": "tambah-pillar.js",
+  "scripts": {
+    "start": "node tambah-pillar.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^16.4.5"
+  }
+}
