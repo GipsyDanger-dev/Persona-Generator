@@ -164,7 +164,7 @@ async function main() {
     process.exit(1);
   }
 
-  console.log('\n🤖 Meminta Gemini menyusun persona + jadwal...');
+  console.log('\n🤖 Menyusun persona + jadwal...');
   const prompt = buildPrompt({ slug: slug.trim(), deskripsi, gaya, larangan, contohTopik });
 
   let result;
